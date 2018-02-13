@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>service-management-models</artifactId>
     <packaging>jar</packaging>
-    
+    <version>1.0-SNAPSHOT</version>
     
     <parent>
         <groupId>theThreeMusketeers</groupId>
@@ -16,13 +16,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.16.18</version>
-            <type>jar</type>
         </dependency>
     </dependencies>
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
+    
 </project>

@@ -16,7 +16,10 @@
         <artifactId>doctorOffice</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-
+    
+    <properties>
+        <start-class>fr.service.management.Application</start-class>
+    </properties>
 
     <dependencies>
         <dependency>

@@ -43,10 +43,10 @@ public class DoctorController {
         return  "/WEB-INF/jsp/doctor/add_secretaire.jsp";
     }
     
-    @RequestMapping(value="list_secretaires", method = RequestMethod.GET)
+    @RequestMapping(value="list_patients", method = RequestMethod.GET)
     public String findPatients(Model model){
         
-        return  "/WEB-INF/jsp/doctor/list_secretaires.jsp";
+        return  "/WEB-INF/jsp/doctor/list_patients.jsp";
     }
     
 }

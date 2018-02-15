@@ -12,7 +12,7 @@
         <module>service-management-models</module>
         <module>service-management-gateway</module>
         <module>service-management-rest</module>
-        <module>service-management-eureka</module>
+        <module>service-management-web</module>
     </modules>
 
     
@@ -26,6 +26,8 @@
         
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        
+        <docker.image.prefix>esipe</docker.image.prefix>
     </properties>
     
     <dependencyManagement>
@@ -33,6 +35,13 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-parent</artifactId>
                 <version>${spring-boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>

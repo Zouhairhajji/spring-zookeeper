@@ -24,3 +24,5 @@ hs_err_pid*
 /service-management-gateway/target/
 /service-management-doctor/target/
 /service-management-rest/target/
+/service-management-web/target/
+/service-management-web/app/target/
